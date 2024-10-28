@@ -822,6 +822,11 @@ body {
   outline-offset: 2px;
 }
 
+.focus\:invalid\:border-light-red:invalid:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 82 99 / var(--tw-border-opacity));
+}
+
 @media (min-width: 0px) {
   .\33xs\:w-3\/4 {
     width: 75%;
